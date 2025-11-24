@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Git Initialization Steps</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 15px;
+            border-left: 4px solid #333;
+            overflow-x: auto;
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Initialize Git and Commit Files</h1>
+
+    <p>Follow these commands to initialize a Git repository and commit your files:</p>
+
+    <pre>
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/username/repo-name.git
+git push -u origin main
+    </pre>
+
+</body>
+</html>
